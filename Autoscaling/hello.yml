@@ -1,0 +1,215 @@
+[?1000h[?1049h[?1h=[1;33r[23m[24m[0m[H[J[?25l[33;1H"/tmp/kubectl-edit-497344136.yaml" 71L, 2341BPtmux;[?2004l\[1;1H[34m# Please edit the object below. Lines beginning with a '#' will be ignored,
+# and an empty file will abort the edit. If an error occurs while saving this file will be
+# reopened with the relevant failures.
+#[0m
+[36mapiVersion[0m[35m:[0m apps/v1
+[36mkind[0m[35m:[0m Deployment
+[36mmetadata[0m[35m:[0m
+  [36mannotations[0m[35m:[0m
+    [36mdeployment.kubernetes.io/revision[0m[35m:[0m [31m"1"[0m
+    [36mkubectl.kubernetes.io/last-applied-configuration[0m[35m:[0m |[11;7H[35m{[0m[31m"apiVersion"[0m[35m:[0m[31m"apps/v1"[0m,[31m"kind"[0m[35m:[0m[31m"Deployment"[0m,[31m"metadata"[0m[35m:{[0m[31m"annotations"[0m[35m:{}[0m,[31m"name"[0m[35m:[0m[31m"web"[0m,[31m"namespace"[0m[35m:[0m[31m"default"[0m[35m}[0m,[31m"spec"[0m[35m:{[0m[31m"replicas"[0m[35m:[0m1,[31m"selector"[0m[35m:{[0m[31m"matchLL[12;1Habels"[0m[35m:{[0m[31m"run"[0m[35m:[0m[31m"web"[0m[35m}}[0m,[31m"template"[0m[35m:{[0m[31m"metadata"[0m[35m:{[0m[31m"labels"[0m[35m:{[0m[31m"run"[0m[35m:[0m[31m"web"[0m[35m}}[0m,[31m"spec"[0m[35m:{[0m[31m"containers"[0m[35m:[{[0m[31m"image"[0m[35m:[0m[31m"gcr.io/google-samples/hello-app:1.0"[0m,[31m"name"[0m[35m:[0m[31m"web"[0m,[31m"poo[13;1Hrts"[0m[35m:[{[0m[31m"containerPort"[0m[35m:[0m8080,[31m"protocol"[0m[35m:[0m[31m"TCP"[0m[35m}][0m,[31m"resources"[0m[35m:{[0m[31m"requests"[0m[35m:{[0m[31m"cpu"[0m[35m:[0m[31m"250m"[0m[35m}}}]}}}}[0m
+  [36mcreationTimestamp[0m[35m:[0m [31m"2023-08-11T15:50:40Z"[0m
+  [36mgeneration[0m[35m:[0m [31m1[0m
+  [36mname[0m[35m:[0m web
+  [36mnamespace[0m[35m:[0m default
+  [36mresourceVersion[0m[35m:[0m [31m"96312"[0m
+  [36muid[0m[35m:[0m 128e6607-ca82-43da-a4b3-758d28c387c4
+[36mspec[0m[35m:[0m
+  [36mprogressDeadlineSeconds[0m[35m:[0m [31m600[0m
+  [36mreplicas[0m[35m:[0m [31m1[0m
+  [36mrevisionHistoryLimit[0m[35m:[0m [31m10[0m
+  [36mselector[0m[35m:[0m
+    [36mmatchLabels[0m[35m:[0m[26;7H[36mrun[0m[35m:[0m web
+  [36mstrategy[0m[35m:[0m
+    [36mrollingUpdate[0m[35m:[0m[29;7H[36mmaxSurge[0m[35m:[0m 25%[30;7H[36mmaxUnavailable[0m[35m:[0m 25%
+    [36mtype[0m[35m:[0m RollingUpdate
+  [36mtemplate[0m[35m:[0m[33;138H1,1[11CTop[1;1H[34h[?25h[?25l[33;1HType  :qa  and press <Enter> to exit Vim[33;41H[K[33;138H1,1[11CTop[1;1H[34h[?25h[?25l[33;138H[K[33;138H1,1[11CTop[1;1H[34h[?25h[?25l[33;138H[K[33;138H1,1[11CTop[1;1H[34h[?25h[?25l[33;138H[K[33;138H1,1[11CTop[1;1H[34h[?25h[?25l[33;138H[K[33;138H1,1[11CTop[1;1H[34h[?25h[?25l[33;128He[1;1H[33;128H [1;8H[33;140H8[1;8H[34h[?25h[?25l[33;128Hx[1;8H[33;128H [1;8H[33;128Hdl[1;8H[33;128H  [1;8H[34m edit the object below. Lines beginning with a '#' will be ignored,[0m[1;75H[K[1;8H[34h[?25h[?25l[33;10H!  and press <Enter> to abandon all changes and exit Vim[33;138H[K[33;138H1,8[11CTop[1;8H[34h[?25h[?25l[33;138H[K[33;138H1,8[11CTop[1;8H[34h[?25h[?25l[33;138H[K[33;138H1,8[11CTop[1;8H[34h[?25h[?25l[33;138H[K[33;138H1,8[11CTop[1;8H[34h[?25h[?25l[33;138H[K[33;138H1,8[11CTop[1;8H[34h[?25h[?25l[33;138H[K[33;138H1,8[11CTop[1;8H[34h[?25h[?25l[33;138H[K[33;138H1,8[11CTop[1;8H[34h[?25h[?25l[33;138H[K[33;138H1,8[11CTop[1;8H[34h[?25h[?25l[33;138H[K[33;138H1,8[11CTop[1;8H[34h[?25h[?25l[33;138H[K[33;138H1,8[11CTop[1;8H[34h[?25h[?25l[33;138H[K[33;138H1,8[11CTop[1;8H[34h[?25h[?25l[33;138H[K[33;138H1,8[11CTop[1;8H[34h[?25h[?25l[33;138H[K[33;138H1,8[11CTop[1;8H[34h[?25h[23m[24m[0m[H[J[?25l[1;1H[34m# Pleas edit the object below. Lines beginning with a '#' will be ignored,
+# and an empty file will abort the edit. If an error occurs while saving this fii[3;1Hle will be
+# reopened with the relevant failures.
+#[0m
+[36mapiVersion[0m[35m:[0m apps/v1
+[36mkind[0m[35m:[0m Deployment
+[36mmetadata[0m[35m:[0m
+  [36mannotations[0m[35m:[0m
+    [36mdeployment.kubernetes.io/revision[0m[35m:[0m [31m"1"[0m
+    [36mkubectl.kubernetes.io/last-applied-configuration[0m[35m:[0m |[12;7H[35m{[0m[31m"apiVersion"[0m[35m:[0m[31m"apps/v1"[0m,[31m"kind"[0m[35m:[0m[31m"Deployment"[0m,[31m"metadata"[0m[35m:{[0m[31m"annotations"[0m[35m:{}[0m,[31m""[13;1Hname"[0m[35m:[0m[31m"web"[0m,[31m"namespace"[0m[35m:[0m[31m"default"[0m[35m}[0m,[31m"spec"[0m[35m:{[0m[31m"replicas"[0m[35m:[0m1,[31m"selector"[0m[35m:{[0m[31m"matchLabelss[14;1H"[0m[35m:{[0m[31m"run"[0m[35m:[0m[31m"web"[0m[35m}}[0m,[31m"template"[0m[35m:{[0m[31m"metadata"[0m[35m:{[0m[31m"labels"[0m[35m:{[0m[31m"run"[0m[35m:[0m[31m"web"[0m[35m}}[0m,[31m"spec"[0m[35m:{[0m[31m"contaii[15;1Hners"[0m[35m:[{[0m[31m"image"[0m[35m:[0m[31m"gcr.io/google-samples/hello-app:1.0"[0m,[31m"name"[0m[35m:[0m[31m"web"[0m,[31m"ports"[0m[35m:[{[0m[31m"coo[16;1HntainerPort"[0m[35m:[0m8080,[31m"protocol"[0m[35m:[0m[31m"TCP"[0m[35m}][0m,[31m"resources"[0m[35m:{[0m[31m"requests"[0m[35m:{[0m[31m"cpu"[0m[35m:[0m[31m"250m"[0m[35m}}}]}}}[17;1H}}[0m
+  [36mcreationTimestamp[0m[35m:[0m [31m"2023-08-11T15:50:40Z"[0m
+  [36mgeneration[0m[35m:[0m [31m1[0m
+  [36mname[0m[35m:[0m web
+  [36mnamespace[0m[35m:[0m default
+  [36mresourceVersion[0m[35m:[0m [31m"96312"[0m
+  [36muid[0m[35m:[0m 128e6607-ca82-43da-a4b3-758d28c387c4[24;63H1,8[11CTop[1;8H[34h[?25h[23m[24m[0m[H[J[?25l[1;1H[34m# Pleas edit the object below. Lines beginning with a '#' will be ignored,
+# and an empty file will abort the edit. If an error occurs while saving this file will be
+# reopened with the relevant failures.
+#[0m
+[36mapiVersion[0m[35m:[0m apps/v1
+[36mkind[0m[35m:[0m Deployment
+[36mmetadata[0m[35m:[0m
+  [36mannotations[0m[35m:[0m
+    [36mdeployment.kubernetes.io/revision[0m[35m:[0m [31m"1"[0m
+    [36mkubectl.kubernetes.io/last-applied-configuration[0m[35m:[0m |[11;7H[35m{[0m[31m"apiVersion"[0m[35m:[0m[31m"apps/v1"[0m,[31m"kind"[0m[35m:[0m[31m"Deployment"[0m,[31m"metadata"[0m[35m:{[0m[31m"annotations"[0m[35m:{}[0m,[31m"name"[0m[35m:[0m[31m"web"[0m,[31m"namespace"[0m[35m:[0m[31m"default"[0m[35m}[0m,[31m"spec"[0m[35m:{[0m[31m"replicas"[0m[35m:[0m1,[31m"selector"[0m[35m:{[0m[31m"matchLaa[12;1Hbels"[0m[35m:{[0m[31m"run"[0m[35m:[0m[31m"web"[0m[35m}}[0m,[31m"template"[0m[35m:{[0m[31m"metadata"[0m[35m:{[0m[31m"labels"[0m[35m:{[0m[31m"run"[0m[35m:[0m[31m"web"[0m[35m}}[0m,[31m"spec"[0m[35m:{[0m[31m"containers"[0m[35m:[{[0m[31m"image"[0m[35m:[0m[31m"gcr.io/google-samples/hello-app:1.0"[0m,[31m"name"[0m[35m:[0m[31m"web"[0m,[31m"portt[13;1Hs"[0m[35m:[{[0m[31m"containerPort"[0m[35m:[0m8080,[31m"protocol"[0m[35m:[0m[31m"TCP"[0m[35m}][0m,[31m"resources"[0m[35m:{[0m[31m"requests"[0m[35m:{[0m[31m"cpu"[0m[35m:[0m[31m"250m"[0m[35m}}}]}}}}[0m
+  [36mcreationTimestamp[0m[35m:[0m [31m"2023-08-11T15:50:40Z"[0m
+  [36mgeneration[0m[35m:[0m [31m1[0m
+  [36mname[0m[35m:[0m web
+  [36mnamespace[0m[35m:[0m default
+  [36mresourceVersion[0m[35m:[0m [31m"96312"[0m
+  [36muid[0m[35m:[0m 128e6607-ca82-43da-a4b3-758d28c387c4
+[36mspec[0m[35m:[0m
+  [36mprogressDeadlineSeconds[0m[35m:[0m [31m600[0m
+  [36mreplicas[0m[35m:[0m [31m1[0m
+  [36mrevisionHistoryLimit[0m[35m:[0m [31m10[0m
+  [36mselector[0m[35m:[0m
+    [36mmatchLabels[0m[35m:[0m[26;7H[36mrun[0m[35m:[0m web
+  [36mstrategy[0m[35m:[0m
+    [36mrollingUpdate[0m[35m:[0m[29;7H[36mmaxSurge[0m[35m:[0m 25%[30;7H[36mmaxUnavailable[0m[35m:[0m 25%[31;139H1,8[11CTop[1;8H[34h[?25h[23m[24m[0m[H[J[?25l[1;1H[34m# Pleas edit the object below. Lines beginning with a '#' will be ignored,
+# and an empty file will abort the edit. If an error occurs while saving this file will be
+# reopened with the relevant failures.
+#[0m
+[36mapiVersion[0m[35m:[0m apps/v1
+[36mkind[0m[35m:[0m Deployment
+[36mmetadata[0m[35m:[0m
+  [36mannotations[0m[35m:[0m
+    [36mdeployment.kubernetes.io/revision[0m[35m:[0m [31m"1"[0m
+    [36mkubectl.kubernetes.io/last-applied-configuration[0m[35m:[0m |[11;7H[35m{[0m[31m"apiVersion"[0m[35m:[0m[31m"apps/v1"[0m,[31m"kind"[0m[35m:[0m[31m"Deployment"[0m,[31m"metadata"[0m[35m:{[0m[31m"annotations"[0m[35m:{}[0m,[31m"name"[0m[35m:[0m[31m"web"[0m,[31m"namespace"[0m[35m:[0m[31m"default"[0m[35m}[0m,[31m"spec"[0m[35m:{[0m[31m"replicas"[0m[35m:[0m1,[31m"selector"[0m[35m:{[0m[31m"matchLL[12;1Habels"[0m[35m:{[0m[31m"run"[0m[35m:[0m[31m"web"[0m[35m}}[0m,[31m"template"[0m[35m:{[0m[31m"metadata"[0m[35m:{[0m[31m"labels"[0m[35m:{[0m[31m"run"[0m[35m:[0m[31m"web"[0m[35m}}[0m,[31m"spec"[0m[35m:{[0m[31m"containers"[0m[35m:[{[0m[31m"image"[0m[35m:[0m[31m"gcr.io/google-samples/hello-app:1.0"[0m,[31m"name"[0m[35m:[0m[31m"web"[0m,[31m"poo[13;1Hrts"[0m[35m:[{[0m[31m"containerPort"[0m[35m:[0m8080,[31m"protocol"[0m[35m:[0m[31m"TCP"[0m[35m}][0m,[31m"resources"[0m[35m:{[0m[31m"requests"[0m[35m:{[0m[31m"cpu"[0m[35m:[0m[31m"250m"[0m[35m}}}]}}}}[0m
+  [36mcreationTimestamp[0m[35m:[0m [31m"2023-08-11T15:50:40Z"[0m
+  [36mgeneration[0m[35m:[0m [31m1[0m
+  [36mname[0m[35m:[0m web
+  [36mnamespace[0m[35m:[0m default
+  [36mresourceVersion[0m[35m:[0m [31m"96312"[0m
+  [36muid[0m[35m:[0m 128e6607-ca82-43da-a4b3-758d28c387c4
+[36mspec[0m[35m:[0m
+  [36mprogressDeadlineSeconds[0m[35m:[0m [31m600[0m
+  [36mreplicas[0m[35m:[0m [31m1[0m
+  [36mrevisionHistoryLimit[0m[35m:[0m [31m10[0m
+  [36mselector[0m[35m:[0m
+    [36mmatchLabels[0m[35m:[0m[26;7H[36mrun[0m[35m:[0m web
+  [36mstrategy[0m[35m:[0m
+    [36mrollingUpdate[0m[35m:[0m[29;7H[36mmaxSurge[0m[35m:[0m 25%[30;7H[36mmaxUnavailable[0m[35m:[0m 25%[31;138H1,8[11CTop[1;8H[34h[?25h[?25l[31;1HType  :qa!  and press <Enter> to abandon all changes and exit Vim[31;138H[K[31;138H1,8[11CTop[1;8H[34h[?25h[?25l[31;138H[K[31;138H1,8[11CTop[1;8H[34h[?25h[?25l[31;138H[K[31;138H1,8[11CTop[1;8H[34h[?25h[?25l[31;138H[K[31;138H1,8[11CTop[1;8H[34h[?25h[?25l[31;138H[K[31;138H1,8[11CTop[1;8H[34h[?25h[?25l[31;138H[K[31;138H1,8[11CTop[1;8H[34h[?25h[?25l[31;128He[1;8H[31;128H [1;12H[31;140H12[1;12H[34h[?25h[?25l[31;128Hx[1;12H[31;128H [1;12H[31;128Hdl[1;12H[31;128H  [1;12H[34m the object below. Lines beginning with a '#' will be ignored,[0m[1;74H[K[1;12H[34h[?25h[?25l[31;128Hi[1;12H[31;128H [1;12H[31;1H[1m-- INSERT --[0m[31;13H[K[31;138H1,12[10CTopPtmux;[?2004h\[1;12H[34h[?25h[?25l[34mt the object below. Lines beginning with a '#' will be ignored,[0m[31;141H3[1;13H[34h[?25h[?25l[2;30r[2;1H[L[1;31r[1;13H[K[2;1H[34m#  the object below. Lines beginning with a '#' will be ignored,[0m[31;138H[K[31;138H2,3[11CTop[2;3H[34h[?25h[?25l[3;30r[3;1H[L[1;31r[2;2H[K[3;1H[34m#  the object below. Lines beginning with a '#' will be ignored,[0m[31;138H[K[31;138H3,3[11CTop[3;3H[34h[?25h[?25l[4;30r[4;1H[L[1;31r[3;2H[K[4;1H[34m#  the object below. Lines beginning with a '#' will be ignored,[0m[31;138H[K[31;138H4,3[11CTop[4;3H[34h[?25h[?25l[5;30r[5;1H[L[1;31r[4;2H[K[5;1H[34m#  the object below. Lines beginning with a '#' will be ignored,[0m[31;138H[K[31;138H5,3[11CTop[5;3H[34h[?25h[?25l[6;30r[6;1H[L[1;31r[5;2H[K[6;1H[34m#  the object below. Lines beginning with a '#' will be ignored,[0m[31;138H[K[31;138H6,3[11CTop[6;3H[34h[?25h[?25l[7;30r[7;1H[L[1;31r[6;2H[K[7;1H[34m#  the object below. Lines beginning with a '#' will be ignored,[0m[31;138H[K[31;138H7,3[11CTop[7;3H[34h[?25h[?25l[8;30r[8;1H[L[1;31r[7;2H[K[8;1H[34m#  the object below. Lines beginning with a '#' will be ignored,[0m[31;138H[K[31;138H8,3[11CTop[8;3H[34h[?25h[?25l[9;30r[9;1H[L[1;31r[8;2H[K[9;1H[34m#  the object below. Lines beginning with a '#' will be ignored,[0m[31;138H[K[31;138H9,3[11CTop[9;3H[34h[?25h[?25l[34mk the object below. Lines beginning with a '#' will be ignored,[0m[31;140H4[9;4H[34h[?25h[?25l[34mf the object below. Lines beginning with a '#' will be ignored,[0m[31;140H5[9;5H[34h[?25h[?25l[34mk the object below. Lines beginning with a '#' will be ignored,[0m[31;140H6[9;6H[34h[?25h[?25l[34mf the object below. Lines beginning with a '#' will be ignored,[0m[31;140H7[9;7H[34h[?25h[?25l[34mk the object below. Lines beginning with a '#' will be ignored,[0m[31;140H8[9;8H[34h[?25h[?25l[34mj the object below. Lines beginning with a '#' will be ignored,[0m[31;140H9[9;9H[34h[?25h[?25l[34mg the object below. Lines beginning with a '#' will be ignored,[0m[31;140H10[9;10H[34h[?25h[?25l[34mj the object below. Lines beginning with a '#' will be ignored,[0m[31;141H1[9;11H[34h[?25h[?25l[34mr the object below. Lines beginning with a '#' will be ignored,[0m[31;141H2[9;12H[34h[?25h[?25l[34mj the object below. Lines beginning with a '#' will be ignored,[0m[31;141H3[9;13H[34h[?25h[?25l[34mj the object below. Lines beginning with a '#' will be ignored,[0m[31;141H4[9;14H[34h[?25h[?25l[34mi the object below. Lines beginning with a '#' will be ignored,[0m[31;141H5[9;15H[34h[?25h[?25l[34mj the object below. Lines beginning with a '#' will be ignored,[0m[31;141H6[9;16H[34h[?25h[23m[24m[0m[H[J[?25l[1;1H[34m# Pleas edit
+#
+#
+#
+#
+#
+#
+#
+# kfkfkjgjrjjij the object below. Lines beginning with a '#' will be ignored,
+# and an empty file will abort the edit. If an error occurs while saving this file will be
+# reopened with the relevant failures.
+#[0m
+[36mapiVersion[0m[35m:[0m apps/v1
+[36mkind[0m[35m:[0m Deployment
+[36mmetadata[0m[35m:[0m
+  [36mannotations[0m[35m:[0m
+    [36mdeployment.kubernetes.io/revision[0m[35m:[0m [31m"1"[0m
+    [36mkubectl.kubernetes.io/last-applied-configuration[0m[35m:[0m |[19;7H[35m{[0m[31m"apiVersion"[0m[35m:[0m[31m"apps/v1"[0m,[31m"kind"[0m[35m:[0m[31m"Deployment"[0m,[31m"metadata"[0m[35m:{[0m[31m"annotations"[0m[35m:{}[0m,[31m"name"[0m[35m:[0m[31m"web"[0m,[31m"namespace"[0m[35m:[0m[31m"default"[0m[35m}[0m,[31m"spec"[0m[35m:{[0m[31m"replicas"[0m[35m:[0m1,[31m"selector"[0m[35m:{[0m[31m"matchLL[20;1Habels"[0m[35m:{[0m[31m"run"[0m[35m:[0m[31m"web"[0m[35m}}[0m,[31m"template"[0m[35m:{[0m[31m"metadata"[0m[35m:{[0m[31m"labels"[0m[35m:{[0m[31m"run"[0m[35m:[0m[31m"web"[0m[35m}}[0m,[31m"spec"[0m[35m:{[0m[31m"containers"[0m[35m:[{[0m[31m"image"[0m[35m:[0m[31m"gcr.io/google-samples/hello-app:1.0"[0m,[31m"name"[0m[35m:[0m[31m"web"[0m,[31m"poo[21;1Hrts"[0m[35m:[{[0m[31m"containerPort"[0m[35m:[0m8080,[31m"protocol"[0m[35m:[0m[31m"TCP"[0m[35m}][0m,[31m"resources"[0m[35m:{[0m[31m"requests"[0m[35m:{[0m[31m"cpu"[0m[35m:[0m[31m"250m"[0m[35m}}}]}}}}[0m
+  [36mcreationTimestamp[0m[35m:[0m [31m"2023-08-11T15:50:40Z"[0m
+  [36mgeneration[0m[35m:[0m [31m1[0m
+  [36mname[0m[35m:[0m web
+  [36mnamespace[0m[35m:[0m default
+  [36mresourceVersion[0m[35m:[0m [31m"96312"[0m
+  [36muid[0m[35m:[0m 128e6607-ca82-43da-a4b3-758d28c387c4
+[36mspec[0m[35m:[0m
+  [36mprogressDeadlineSeconds[0m[35m:[0m [31m600[0m
+  [36mreplicas[0m[35m:[0m [31m1[0m
+  [36mrevisionHistoryLimit[0m[35m:[0m [31m10[0m
+  [36mselector[0m[35m:[0m
+[1m-- INSERT --[0m[125C9,16[10CTop[9;16H[34h[?25h[23m[24m[0m[H[J[?25l[1;1H[34m#
+#
+#
+#
+#
+#
+# kfkfkjgjrjjij the object below. Lines beginning with a '#' will be ignored,
+# and an empty file will abort the edit. If an error occurs while saving this fii[9;1Hle will be
+# reopened with the relevant failures.
+#[0m
+[36mapiVersion[0m[35m:[0m apps/v1
+[36mkind[0m[35m:[0m Deployment
+[36mmetadata[0m[35m:[0m
+  [36mannotations[0m[35m:[0m
+    [36mdeployment.kubernetes.io/revision[0m[35m:[0m [31m"1"[0m
+    [36mkubectl.kubernetes.io/last-applied-configuration[0m[35m:[0m |[18;7H[35m{[0m[31m"apiVersion"[0m[35m:[0m[31m"apps/v1"[0m,[31m"kind"[0m[35m:[0m[31m"Deployment"[0m,[31m"metadata"[0m[35m:{[0m[31m"annotations"[0m[35m:{}[0m,[31m""[19;1Hname"[0m[35m:[0m[31m"web"[0m,[31m"namespace"[0m[35m:[0m[31m"default"[0m[35m}[0m,[31m"spec"[0m[35m:{[0m[31m"replicas"[0m[35m:[0m1,[31m"selector"[0m[35m:{[0m[31m"matchLabelss[20;1H"[0m[35m:{[0m[31m"run"[0m[35m:[0m[31m"web"[0m[35m}}[0m,[31m"template"[0m[35m:{[0m[31m"metadata"[0m[35m:{[0m[31m"labels"[0m[35m:{[0m[31m"run"[0m[35m:[0m[31m"web"[0m[35m}}[0m,[31m"spec"[0m[35m:{[0m[31m"contaii[21;1Hners"[0m[35m:[{[0m[31m"image"[0m[35m:[0m[31m"gcr.io/google-samples/hello-app:1.0"[0m,[31m"name"[0m[35m:[0m[31m"web"[0m,[31m"ports"[0m[35m:[{[0m[31m"coo[22;1HntainerPort"[0m[35m:[0m8080,[31m"protocol"[0m[35m:[0m[31m"TCP"[0m[35m}][0m,[31m"resources"[0m[35m:{[0m[31m"requests"[0m[35m:{[0m[31m"cpu"[0m[35m:[0m[31m"250m"[0m[35m}}}]}}}[23;1H}}[0m
+[1m-- INSERT --[0m[50C9,16[11C3%[7;16H[34h[?25h[23m[24m[0m[H[J[?25l[1;1H[34m# Pleas edit
+#
+#
+#
+#
+#
+#
+#
+# kfkfkjgjrjjij the object below. Lines beginning with a '#' will be ignored,
+# and an empty file will abort the edit. If an error occurs while saving this file will be
+# reopened with the relevant failures.
+#[0m
+[36mapiVersion[0m[35m:[0m apps/v1
+[36mkind[0m[35m:[0m Deployment
+[36mmetadata[0m[35m:[0m
+  [36mannotations[0m[35m:[0m
+    [36mdeployment.kubernetes.io/revision[0m[35m:[0m [31m"1"[0m
+    [36mkubectl.kubernetes.io/last-applied-configuration[0m[35m:[0m |[19;7H[35m{[0m[31m"apiVersion"[0m[35m:[0m[31m"apps/v1"[0m,[31m"kind"[0m[35m:[0m[31m"Deployment"[0m,[31m"metadata"[0m[35m:{[0m[31m"annotations"[0m[35m:{}[0m,[31m"name"[0m[35m:[0m[31m"web"[0m,[31m"namespace"[0m[35m:[0m[31m"default"[0m[35m}[0m,[31m"spec"[0m[35m:{[0m[31m"replicas"[0m[35m:[0m1,[31m"selector"[0m[35m:{[0m[31m"matchLaa[20;1Hbels"[0m[35m:{[0m[31m"run"[0m[35m:[0m[31m"web"[0m[35m}}[0m,[31m"template"[0m[35m:{[0m[31m"metadata"[0m[35m:{[0m[31m"labels"[0m[35m:{[0m[31m"run"[0m[35m:[0m[31m"web"[0m[35m}}[0m,[31m"spec"[0m[35m:{[0m[31m"containers"[0m[35m:[{[0m[31m"image"[0m[35m:[0m[31m"gcr.io/google-samples/hello-app:1.0"[0m,[31m"name"[0m[35m:[0m[31m"web"[0m,[31m"portt[21;1Hs"[0m[35m:[{[0m[31m"containerPort"[0m[35m:[0m8080,[31m"protocol"[0m[35m:[0m[31m"TCP"[0m[35m}][0m,[31m"resources"[0m[35m:{[0m[31m"requests"[0m[35m:{[0m[31m"cpu"[0m[35m:[0m[31m"250m"[0m[35m}}}]}}}}[0m
+  [36mcreationTimestamp[0m[35m:[0m [31m"2023-08-11T15:50:40Z"[0m
+  [36mgeneration[0m[35m:[0m [31m1[0m
+  [36mname[0m[35m:[0m web
+  [36mnamespace[0m[35m:[0m default
+  [36mresourceVersion[0m[35m:[0m [31m"96312"[0m
+  [36muid[0m[35m:[0m 128e6607-ca82-43da-a4b3-758d28c387c4
+[36mspec[0m[35m:[0m
+  [36mprogressDeadlineSeconds[0m[35m:[0m [31m600[0m
+  [36mreplicas[0m[35m:[0m [31m1[0m
+[1m-- INSERT --[0m[126C9,16[10CTop[9;16H[34h[?25h[23m[24m[0m[H[J[?25l[1;1H[34m# Pleas edit
+#
+#
+#
+#
+#
+#
+#
+# kfkfkjgjrjjij the object below. Lines beginning with a '#' will be ignored,
+# and an empty file will abort the edit. If an error occurs while saving this file will be
+# reopened with the relevant failures.
+#[0m
+[36mapiVersion[0m[35m:[0m apps/v1
+[36mkind[0m[35m:[0m Deployment
+[36mmetadata[0m[35m:[0m
+  [36mannotations[0m[35m:[0m
+    [36mdeployment.kubernetes.io/revision[0m[35m:[0m [31m"1"[0m
+    [36mkubectl.kubernetes.io/last-applied-configuration[0m[35m:[0m |[19;7H[35m{[0m[31m"apiVersion"[0m[35m:[0m[31m"apps/v1"[0m,[31m"kind"[0m[35m:[0m[31m"Deployment"[0m,[31m"metadata"[0m[35m:{[0m[31m"annotations"[0m[35m:{}[0m,[31m"name"[0m[35m:[0m[31m"web"[0m,[31m"namespace"[0m[35m:[0m[31m"default"[0m[35m}[0m,[31m"spec"[0m[35m:{[0m[31m"replicas"[0m[35m:[0m1,[31m"selector"[0m[35m:{[0m[31m"matchLL[20;1Habels"[0m[35m:{[0m[31m"run"[0m[35m:[0m[31m"web"[0m[35m}}[0m,[31m"template"[0m[35m:{[0m[31m"metadata"[0m[35m:{[0m[31m"labels"[0m[35m:{[0m[31m"run"[0m[35m:[0m[31m"web"[0m[35m}}[0m,[31m"spec"[0m[35m:{[0m[31m"containers"[0m[35m:[{[0m[31m"image"[0m[35m:[0m[31m"gcr.io/google-samples/hello-app:1.0"[0m,[31m"name"[0m[35m:[0m[31m"web"[0m,[31m"poo[21;1Hrts"[0m[35m:[{[0m[31m"containerPort"[0m[35m:[0m8080,[31m"protocol"[0m[35m:[0m[31m"TCP"[0m[35m}][0m,[31m"resources"[0m[35m:{[0m[31m"requests"[0m[35m:{[0m[31m"cpu"[0m[35m:[0m[31m"250m"[0m[35m}}}]}}}}[0m
+  [36mcreationTimestamp[0m[35m:[0m [31m"2023-08-11T15:50:40Z"[0m
+  [36mgeneration[0m[35m:[0m [31m1[0m
+  [36mname[0m[35m:[0m web
+  [36mnamespace[0m[35m:[0m default
+  [36mresourceVersion[0m[35m:[0m [31m"96312"[0m
+  [36muid[0m[35m:[0m 128e6607-ca82-43da-a4b3-758d28c387c4
+[36mspec[0m[35m:[0m
+  [36mprogressDeadlineSeconds[0m[35m:[0m [31m600[0m
+  [36mreplicas[0m[35m:[0m [31m1[0m
+[1m-- INSERT --[0m[125C9,16[10CTop[9;16H[34h[?25h[23m[24m[0m[H[J[?25l[1;1H[34m# Pleas edit
+#
+#
+#
+#
+#
+#
+#
+# kfkfkjgjrjjij the object below. Lines beginning with a '#' will be ignored,
+# and an empty file will abort the edit. If an error occurs while saving this file will be
+# reopened with the relevant failures.
+#[0m
+[36mapiVersion[0m[35m:[0m apps/v1
+[36mkind[0m[35m:[0m Deployment
+[36mmetadata[0m[35m:[0m
+  [36mannotations[0m[35m:[0m
+    [36mdeployment.kubernetes.io/revision[0m[35m:[0m [31m"1"[0m
+    [36mkubectl.kubernetes.io/last-applied-configuration[0m[35m:[0m |[19;7H[35m{[0m[31m"apiVersion"[0m[35m:[0m[31m"apps/v1"[0m,[31m"kind"[0m[35m:[0m[31m"Deployment"[0m,[31m"metadata"[0m[35m:{[0m[31m"annotations"[0m[35m:{}[0m,[31m"name"[0m[35m:[0m[31m"web"[0m,[31m"namespace"[0m[35m:[0m[31m"default"[0m[35m}[0m,[31m"spec"[0m[35m:{[0m[31m"replicas"[0m[35m:[0m1,[31m"selector"[0m[35m:{[0m[31m"matchLL[20;1Habels"[0m[35m:{[0m[31m"run"[0m[35m:[0m[31m"web"[0m[35m}}[0m,[31m"template"[0m[35m:{[0m[31m"metadata"[0m[35m:{[0m[31m"labels"[0m[35m:{[0m[31m"run"[0m[35m:[0m[31m"web"[0m[35m}}[0m,[31m"spec"[0m[35m:{[0m[31m"containers"[0m[35m:[{[0m[31m"image"[0m[35m:[0m[31m"gcr.io/google-samples/hello-app:1.0"[0m,[31m"name"[0m[35m:[0m[31m"web"[0m,[31m"poo[21;1Hrts"[0m[35m:[{[0m[31m"containerPort"[0m[35m:[0m8080,[31m"protocol"[0m[35m:[0m[31m"TCP"[0m[35m}][0m,[31m"resources"[0m[35m:{[0m[31m"requests"[0m[35m:{[0m[31m"cpu"[0m[35m:[0m[31m"250m"[0m[35m}}}]}}}}[0m
+  [36mcreationTimestamp[0m[35m:[0m [31m"2023-08-11T15:50:40Z"[0m
+  [36mgeneration[0m[35m:[0m [31m1[0m
+  [36mname[0m[35m:[0m web
+  [36mnamespace[0m[35m:[0m default
+  [36mresourceVersion[0m[35m:[0m [31m"96312"[0m
+  [36muid[0m[35m:[0m 128e6607-ca82-43da-a4b3-758d28c387c4
+[36mspec[0m[35m:[0m
+  [36mprogressDeadlineSeconds[0m[35m:[0m [31m600[0m
+  [36mreplicas[0m[35m:[0m [31m1[0m
+  [36mrevisionHistoryLimit[0m[35m:[0m [31m10[0m
+  [36mselector[0m[35m:[0m
+[1m-- INSERT --[0m[125C9,16[10CTop[9;16H[34h[?25h
